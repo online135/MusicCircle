@@ -6,5 +6,12 @@ namespace MusicCircle
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics grapgics = this.panel1.CreateGraphics();
+
+            Pen pen = new Pen(Color.Red);
+        }
     }
 }
