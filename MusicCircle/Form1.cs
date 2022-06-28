@@ -12,6 +12,8 @@ namespace MusicCircle
             Graphics grapgics = this.panel1.CreateGraphics();
 
             Pen pen = new Pen(Color.Red);
+            grapgics.DrawEllipse(pen, 70, 60, 170, 170);
+            
         }
     }
 }
